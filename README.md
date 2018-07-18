@@ -51,7 +51,7 @@ microUSB
 
 ## 软件设计
 软件采用分层结构设计，如下图所示，从底层到上层分别是Driver层，RTOS(RTT + Fatfs)，HAL硬件虚拟层，Framework层和应用层。
-
+![软件框图](https://github.com/TJUUAVLaboratory/StarryPilot/blob/master/docs/images/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1.jpg)
 
 # About
 A lightweight and powerful autopilot software, which focus on research and development of state-of-the-art software for UAVs. One of the project’s primary goals is to provide an open and flexible platform making it easy to be applied to a broad range of domains.
