@@ -90,6 +90,7 @@ The project is developed on Pixhawk (autopilot hardware). To download firmware i
 - If you didn't format the SD card before, please type `mkfs` command to format the SD card.
 - Then you should download the starry_io firmware. To do so, first compile starry_io project to get the bin file and name it as **starryio.bin**. Copy the starryio.bin to the **root directory** of SD card, then open Msh shell system and type `uploader`, which is shown below.
 
+
 ![](docs/images/io_download.png)
 
 - Choose **file system** option to start download. Notice that if it's the first time that you download starry_io, after you type uploader, you should push reset button of io (in the side of Pixhawk) to let io enter the bootloader.
