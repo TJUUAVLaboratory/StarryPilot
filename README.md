@@ -47,6 +47,7 @@ microUSB
 
 整个系统除了Pixhawk之外，还有一些外接的电子设备，如无刷电机，GPS，电调，数传，RC接收机，Lidar-Lite激光雷达等。
 整体的系统框架图如下图所示：
+![系统框图](https://github.com/TJUUAVLaboratory/StarryPilot/blob/master/docs/images/%E7%B3%BB%E7%BB%9F%E6%A1%86%E5%9B%BE.jpg)
 
 ## 软件设计
 软件采用分层结构设计，如下图所示，从底层到上层分别是Driver层，RTOS(RTT + Fatfs)，HAL硬件虚拟层，Framework层和应用层。
